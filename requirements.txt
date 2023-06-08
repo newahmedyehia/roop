@@ -2,7 +2,7 @@
 Flask==2.2.2
 Flask-Caching
 gunicorn
-numpy==1.23.5
+numpy
 opencv-python==4.7.0.72
 onnx==1.14.0
 insightface==0.7.3
