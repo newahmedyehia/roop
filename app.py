@@ -40,9 +40,9 @@ import subprocess
 from flask_caching import Cache
 from flask import send_file
 
-cache = Cache(config={'CACHE_TYPE': 'simple'})
+# cache = Cache(config={'CACHE_TYPE': 'simple'})
 
-@cache.memoize(timeout=60)
+# @cache.memoize(timeout=60)
 def process_video(rc_file, video_file):
     # save uploaded files to disk
     with open("rc.jpg", "wb") as f:
