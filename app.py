@@ -55,7 +55,7 @@ def process_video(rc_file, video_file):
     subprocess.run(command.split())
 
     # generate the URL to the processed video
-    video_url = f"{st.request_url()}show_video"
+    video_url = f"{request.url_root}show_video"
 
     # return the URL as the response
     return video_url
