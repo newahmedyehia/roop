@@ -9,8 +9,8 @@ from flask_caching import Cache
 app = Flask(__name__)
 cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 
-ngrok.set_auth_token("2OjkuOVJ4LFyiVrJTnE7ecCXduo_6YoaMmEtEBoVFin2dTCp5")
-public_url =  ngrok.connect(port_no).public_url
+# ngrok.set_auth_token("2OjkuOVJ4LFyiVrJTnE7ecCXduo_6YoaMmEtEBoVFin2dTCp5")
+# public_url =  ngrok.connect(port_no).public_url
 
 
 
