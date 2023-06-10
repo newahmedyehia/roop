@@ -1,0 +1,21 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+gunicorn
+Flask==2.2.2
+roboflow
+Flask-Caching
+networkx
+numpy
+opencv-python==4.7.0.72
+onnx==1.14.0
+insightface==0.7.3
+psutil==5.9.5
+tk==0.1.0
+pillow==9.5.0
+torch
+onnxruntime==1.15.0; sys_platform == 'darwin' and platform_machine != 'arm64'
+onnxruntime-silicon==1.13.1; sys_platform == 'darwin' and platform_machine == 'arm64'
+onnxruntime-gpu
+tensorflow
+opennsfw2
+protobuf
+tqdm
