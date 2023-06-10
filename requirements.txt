@@ -1,6 +1,7 @@
 --extra-index-url https://download.pytorch.org/whl/cu118
 gunicorn
 Flask==2.2.2
+roboflow
 Flask-Caching
 networkx
 numpy
