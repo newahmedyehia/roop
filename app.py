@@ -75,7 +75,7 @@ def show_video():
     return send_file('face_changed_video.mp4', mimetype='video/mp4', as_attachment=True)
 
 
-print(f"To acces the Gloable link please click {public_url}")
+# print(f"To acces the Gloable link please click {public_url}")
 
-app.run(port=port_no )
+# app.run(port=port_no )
 
