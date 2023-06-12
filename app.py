@@ -60,7 +60,7 @@ public_url =  ngrok.connect(port_no).public_url
 @cache.cached(timeout=60)
 def process_video():
     # run the command to generate the face changed video
-    command = "python run.py -f rc.png -t my_video.mp4 -o face_changed_video.mp4 --keep-frames --keep-fps --gpu"
+    command = "python run.py -f rc.png -t my_video.mp4 -o face_changed_video.mp4 --keep-frames --keep-fps"
     subprocess.run(command.split())
 
     # generate the URL to the processed video
